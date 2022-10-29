@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Heebo, Sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 82px;
+    background-color: #FAFAFA;
+    padding: 2rem;
+}
+.logo-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-icon{
+    height: 18px;
+    width: 18px;
+    
+}
+.logo-text{
+    font-size: 1.53rem;
+    font-family: Heebo;
+    font-weight: 900;
+    line-height: 1.6rem;
+    font-size: normal;
+    color: linear-gradient(149.78deg, #6B0503 14.76%, #6B0503 14.76%, rgba(232, 34, 34, 0.98) 85.81%);
+}
+.nav-links{
+list-style: none;
+display: flex;
+
+}
+.nav-links li{
+    padding: 1rem;
+}
+.nav-links li a{
+   text-decoration: none;
+   padding: 2rem;
+   font-style: normal;
+   font-size: 0.94rem;
+   font-weight: 400;
+   line-height: 1rem;
+   color:#252424 ;
+
+}
+li a:hover{
+    color: red;
+}
+
+.flex-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.visuallyhidden{
+    border:0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.search-input-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.product-link{
+    background-color: rgba(232, 34, 34, 0.09);
+}
+.input{
+    padding: 10px 10px 10px 30px;
+    width:29.9rem;
+    height: 55px;
+    border-radius: 10px;
+    background-color:rgba(249, 249, 249, 0.78);
+    color: #323232;
+    border: 1px solid #CDD8D8;
+    outline: none;
+}
+    
+   
+
+   
+.icon{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    color: #323232;
+    margin-left: 0.5rem;
+   
+}
+.btn-add-car{
+    width: 8.75rem;
+    height: 52px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #252424;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.flex-car-details{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.btn-cars{
+    width: 93px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #252424;
+    color:  #FEFEFE;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    border: none;
+
+
+}
+.car-model{
+   
+width: 87px;
+height: 20px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #555555;
+}
+.car-body{
+    width: 63px;
+    height: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #555555;
+}
+.cars-link-detail{
+    margin-top: 4rem;
+}
+.cars-link{
+    list-style: none;
+}
+.cars-link li{
+    padding: 0.75rem;
+    border-bottom:   1px solid #CDD8D8;
+}
+.cars-link li a{
+    text-decoration: none;
+    color: #111827;
+}
+.cars-link li a:hover{
+color:blue
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.cars-detail-title{
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 00.75rem;
+    color: #111827;
+    border-bottom:1px solid #CDD8D8; ;
+}

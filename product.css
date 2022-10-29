@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Heebo, Sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 82px;
+    background-color: #FAFAFA;
+    padding: 2rem;
+}
+.logo-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-icon{
+    height: 18px;
+    width: 18px;
+    
+}
+.logo-text{
+    font-size: 1.53rem;
+    font-family: Heebo;
+    font-weight: 900;
+    line-height: 1.6rem;
+    font-size: normal;
+    color: linear-gradient(149.78deg, #6B0503 14.76%, #6B0503 14.76%, rgba(232, 34, 34, 0.98) 85.81%);
+}
+.nav-links{
+list-style: none;
+display: flex;
+
+}
+.nav-links li{
+    padding: 1rem;
+}
+.nav-links li a{
+   text-decoration: none;
+   padding: 2rem;
+   font-style: normal;
+   font-size: 0.94rem;
+   font-weight: 400;
+   line-height: 1rem;
+   color:#252424 ;
+
+}
+li a:hover{
+    color: red;
+}
+
+.flex-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.visuallyhidden{
+    border:0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.search-input-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.product-link{
+    background-color: rgba(232, 34, 34, 0.09);
+}
+.input{
+    padding: 10px 10px 10px 30px;
+   
+    width:29.9rem;
+    height: 55px;
+    border-radius: 10px;
+    background-color:rgba(249, 249, 249, 0.78);
+    color: #323232;
+    border: 1px solid #CDD8D8;
+    outline: none;
+
+}
+    
+   
+.icon{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    color: #323232;
+    margin-left: 0.5rem;
+   
+}
+.product{
+    width: 6.75rem;
+    height: 27px;
+    font-weight: 100
+    font-size 1.56rem;
+    line-height:  27.1px;
+   
+}
+.btn-product{
+    width: 8.75rem;
+    height: 52px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #252424;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+.product-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-12-product{
+  width: 62.3rem;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16.26px;
+  border-radius: 8px;
+  padding: 10px, 10px, 10px, 20px;
+  background-color:rgba(249, 249, 249, 0.78);;
+  border: none;
+}
+.input-12-product:focus{
+    outline: none;
+
+}
+.flex-card-details{
+    display: flex;
+    /* align-items: center; */
+    width: 254.7px;
+    justify-content:space-between;
+    
+}
+.flex-cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-top: 3rem;
+    padding: 8rem;
+   
+}
+.card{
+    width:33%;
+    padding: 1rem 2rem;
+   
+   
+   
+}  
+  .card-wrapper{
+    display: flex;
+    align-items: center;
+    border-radius: 12.53px;
+    background-color: #F9F9F9;
+    margin-bottom: 3rem;
+   
+
+  }  
+  .card-title{
+    width: 127px;
+    height: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 108.4%;
+    color: #252424;
+   
+  }
+  .card-model{
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 10.87px;
+    padding: 0.5rem 0;
+  }
+  .mileage{
+    width: 92px;
+    height: 11px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    color:#252424;
+    padding: 0.5rem 0;
+
+  }
+   .engine-size{
+    width: 108px;
+    height: 11px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 108.4%;
+    color:#252424;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+
+   }
+   .hp{
+    width: 68px;
+    height: 11px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 108.4%;
+    color:#252424;
+    padding: 0.5rem 0;
+
+   }
+   .trim{
+    width: 77px;
+    height: 11px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 108.4%;
+    color:#252424;
+    padding: 0.5rem 0;
+
+   }
+   .price{
+
+    width: 77.69px;
+    height: 16.71px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 108.4%;
+    color: #252424;
+    padding: 0.5rem 0;
+  
+   }
+    
+.btn-details{
+    width:96px;
+    height: 25px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.68284px;
+    line-height: 108.4%;
+    color: #FFFEFF;
+    padding: 8.35355px;
+    background-color: #252424;
+    border-radius: 3.34142px;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+   
+    
+    
