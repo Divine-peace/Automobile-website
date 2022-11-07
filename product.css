@@ -40,8 +40,8 @@ body{
     color: linear-gradient(149.78deg, #6B0503 14.76%, #6B0503 14.76%, rgba(232, 34, 34, 0.98) 85.81%);
 }
 .nav-links{
-list-style: none;
-display: flex;
+    list-style: none;
+    display: flex;
 
 }
 .nav-links li{
@@ -150,21 +150,21 @@ li a:hover{
 }
 .flex-card-details{
     display: flex;
-    /* align-items: center; */
     width: 254.7px;
     justify-content:space-between;
+   
     
 }
 .flex-cards{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: space-between;
-    /* width: 100%; */
     margin-top: 3rem;
     padding: 8rem;
    
 }
+    
+   
 .card{
     width:33%;
     padding: 1rem 2rem;
@@ -192,7 +192,7 @@ li a:hover{
    
   }
   .card-model{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 100;
     line-height: 10.87px;
     padding: 0.5rem 0;
@@ -202,7 +202,7 @@ li a:hover{
     height: 11px;
     font-family: Open Sans;
     font-style: normal;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 10px;
     color:#252424;
@@ -212,34 +212,40 @@ li a:hover{
    .engine-size{
     width: 108px;
     height: 11px;
+    font-family: Open Sans;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 108.4%;
     color:#252424;
     padding: 0.5rem 0;
     margin-bottom: 1rem;
 
    }
+
    .hp{
     width: 68px;
     height: 11px;
+    font-family: Open Sans;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 108.4%;
     color:#252424;
     padding: 0.5rem 0;
 
    }
+
    .trim{
     width: 77px;
     height: 11px;
+    font-family: Open Sans;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 108.4%;
     color:#252424;
     padding: 0.5rem 0;
 
    }
+
    .price{
 
     width: 77.69px;
@@ -270,6 +276,82 @@ li a:hover{
     border: none;
     cursor: pointer;
 }
+
+.hamburger{
+    display: none;
+}
+.products_search_wrapper{
+    display: none;
+}
+.header-mobile{
+    display: none;
+}
+    
+  @media(max-width:768px){
+    .container{
+        display: none;
+        
+      }
+      .product-12{
+        display: none;
+      }
+      .header{
+        display: none;
+    } 
+    .header-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 96px;
+        background-color: #FAFAFA;
+        padding: 4rem 2rem 2rem 2rem 
+     }  
+     .hamburger{
+        width: 18px;
+        height: 18px;
+    }
+     .flex-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0;
+       
+    }
+    .products_search_wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+      
+  }
+    
+  .product-mobile{
+      font-weight: 100;
+      font-size: 18px;
+     
+    
+  }
+  .logo-text{
+      font-weight: 900;
+      font-size: 19.3px;
+      line-height: 20.9px;
+     
+
+}  
+.logo-icon{
+      width: 19px;
+      height: 19px;
+}
+.hamburger{
+  display: flex;
+}
+}
+     
+      
+      
+        
+       
+       
+    
    
-    
-    
