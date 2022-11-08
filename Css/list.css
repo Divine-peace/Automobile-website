@@ -182,7 +182,7 @@ color: #555555;
     color: #111827;
 }
 .cars-link li a:hover{
-color:blue
+    color:blue
 }
 .link{
     display: flex;
@@ -205,7 +205,94 @@ color:blue
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
-    padding: 00.75rem;
+    padding: 0.75rem;
     color: #111827;
     border-bottom:1px solid #CDD8D8; ;
 }
+.header-mobile{
+    display: none;
+}
+.cars_search_wrapper{
+    display: none;
+}
+.mobile-btn-add-car{
+    display: none;
+}
+
+@media(max-width:786px){
+    .header{
+        display: none;
+    }
+    .header-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flex-search{
+        display: none;
+    }
+    .flex-car-details{
+        display: none;
+    }
+    .header-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 96px;
+        background-color: #FAFAFA;
+        padding: 4rem 2rem 2rem 2rem 
+     } 
+    .logo-text{
+        font-weight: 900;
+        font-size: 19.3px;
+        line-height: 20.9px;
+       
+  
+  }  
+  .logo-icon{
+        width: 19px;
+        height: 19px;
+  }
+  .cars_search_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .cars-mobile{
+    font-family: Heebo;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19.51px;
+   
+  }
+  .cars-link-detail{
+    margin-top: 0;
+  }
+  .container{
+    padding: 0 2rem;
+  }
+  .link{
+      font-size: 15px;
+      line-height: 16.26px;
+
+}
+.ellipsis{
+    display: none;
+}
+.mobile-btn-add-car{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-top: 5rem;
+}
+}
+     
+    
+   
+   
